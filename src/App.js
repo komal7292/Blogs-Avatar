@@ -5,9 +5,9 @@ import CommentDetail from "./CommentDetail";
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail author='Sam' time='7:10'/>
-      <CommentDetail author='Mac' time='9:10'/>
-      <CommentDetail author='Jam' time='8:10'/>
+      <CommentDetail author='Sam' time='Todat at 7:10PM' content='Nice blog post!'/>
+      <CommentDetail author='Mac' time='Just now 9:10PM' content='Informative post!'/>
+      <CommentDetail author='Jam' time='Yesterday at 8:10AM' content='I like the subject!'/>
     </div>
   );
 }
